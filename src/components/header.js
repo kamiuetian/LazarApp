@@ -3,7 +3,6 @@ import backImage from '../images/backImage.jpg';
 import logo from '../images/dietataLogo.png'
 function Header() {
   return (
-    <div>
       <header>
         <nav>
         <div className="container">
@@ -33,7 +32,6 @@ function Header() {
         </div>
         
       </header>
-    </div>
   );
 }
 
