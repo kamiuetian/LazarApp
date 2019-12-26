@@ -2,14 +2,14 @@ import React from 'react';
 
 
 function MobileGender() {
-  return (
-    
-    <div className="genderChoiceMobile">
-    <div className="male genderChoiceElem" data-gender="male" style={{height: 0}}>
-        <div>Male</div>
-        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="270.5px" height="273px" viewBox="0 0 270.5 273" enableBackground="new 0 0 270.5 273" xmlSpace="preserve">
-    <g>
-        <path fillRule="evenodd" clipRule="evenodd" d="M258.311,142.367c-8.311-18.7-14.646-33.58-30.144-45.7
+    return (
+
+        <div className="genderChoiceMobile">
+            <div className="male genderChoiceElem" data-gender="male" style={{height: 160}}>
+                <div>Male</div>
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="270.5px" height="273px" viewBox="0 0 270.5 273" enableBackground="new 0 0 270.5 273" xmlSpace="preserve">
+                    <g>
+                        <path fillRule="evenodd" clipRule="evenodd" d="M258.311,142.367c-8.311-18.7-14.646-33.58-30.144-45.7
             c-3.021-2.361-10.259-6.188-13.5-8.834c-4.296-3.509-6.477-7.125-11.167-9.833c-9.195-5.308-26.158-6.078-39.687-3.373
             c-1.491-4.65-3.899-6.432-4.066-11.177c-0.156-4.513,2.571-9.085,4.066-13.548c1.475-4.411,3.013-9.348,3.386-14.565
             c1.373-19.159-12.651-31.987-29.467-32.177c-6.656-0.074-12.987,1.573-19.645,4.742c-3.393,1.614-12.594,6.425-13.547,9.823
@@ -30,39 +30,40 @@ function MobileGender() {
              M240.686,160.738c-22.019,14.221-22.631,32.201-38.854,47.967c-2.874,2.794-5.935,4.529-9.063,5.778
             c-1.712-10.216-7.348-17.225-8.295-27.408c-1.914-20.541,14.42-29.17,22.016-41.66c-8.709-7.661-15.849-16.891-20.661-28.45
             c14.619,18.234,31.233,34.474,54.87,43.691L240.686,160.738z"></path>
-        <path fillRule="evenodd" clipRule="evenodd" d="M35.444,134.578c18.834-1.839,33.907-23.142,24.05-43.693
+                        <path fillRule="evenodd" clipRule="evenodd" d="M35.444,134.578c18.834-1.839,33.907-23.142,24.05-43.693
             c-4.408-9.186-14.479-18.356-29.808-16.936C13.707,75.431,3.071,86.377,1.574,100.368
             C-0.526,120.024,15.401,136.533,35.444,134.578z M13.769,100.707c1.155-7.646,8.056-13.506,15.58-14.564
             c10.875-1.529,19.804,5.465,20.999,15.58c1.732,14.648-12.593,24.678-25.402,19.645C18.599,118.873,12.186,111.164,13.769,100.707z
             "></path>
-        <path fillRule="evenodd" clipRule="evenodd" d="M45.945,110.529c5.316-12.101-5.248-22.994-16.936-21
+                        <path fillRule="evenodd" clipRule="evenodd" d="M45.945,110.529c5.316-12.101-5.248-22.994-16.936-21
             c-6.764,1.154-12.699,6.788-12.192,15.582C17.715,120.754,39.988,124.085,45.945,110.529z M31.38,109.174
             c-4.712-0.378-6.343-8.918,0-9.821C38.697,98.308,38.627,109.758,31.38,109.174z"></path>
-        <path fillRule="evenodd" clipRule="evenodd" d="M95.056,107.48c-4.084,4.723-5.943,11.668-7.112,19.306
+                        <path fillRule="evenodd" clipRule="evenodd" d="M95.056,107.48c-4.084,4.723-5.943,11.668-7.112,19.306
             c-10.855,2.919-15.907,11.642-16.935,24.387c-1.138,1.685-2.55,3.097-3.386,5.08c2.044,3.036,4.088,7.876,4.4,11.517
             c-4.349-10.262-13.573-18.404-22.354-25.402c-1.984-1.583-6.913-6.471-9.145-6.774c-1.343-0.183-3.213,0.874-4.742,1.017
             c-3.828,0.356-7.494-0.042-11.178-0.678c8.072,14.557,17.195,30.969,27.436,45.048c3.079,4.233,7.102,11.281,12.532,11.854
             c4.799,0.506,11.194-4.29,14.903-6.774c13.546-9.07,25.497-18.229,32.854-32.176C98.42,147.316,91.046,125.71,95.056,107.48z"></path>
-    </g>
-    </svg>                    </div>
+                    </g>
+                </svg>
+            </div>
 
-    <div className="female genderChoiceElem" data-gender="female" style={{height: 0}}>
-        <div>Female</div>
-        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="176.5px" height="259.5px" viewBox="0 0 176.5 259.5" enableBackground="new 0 0 176.5 259.5" xmlSpace="preserve">
-    <g>
-        <path fillRule="evenodd" clipRule="evenodd" d="M151.962,65.617c-5.431,0.661-9.089,2.604-12.158,5.708
+            <div className="female genderChoiceElem" data-gender="female" style={{height: 160}}>
+                <div>Female</div>
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="176.5px" height="259.5px" viewBox="0 0 176.5 259.5" enableBackground="new 0 0 176.5 259.5" xmlSpace="preserve">
+                    <g>
+                        <path fillRule="evenodd" clipRule="evenodd" d="M151.962,65.617c-5.431,0.661-9.089,2.604-12.158,5.708
             c-3.659,3.704-6.757,9.664-5.706,17.864c1.313,10.238,11.442,18.399,23.323,16.872c8.649-1.112,16.879-9.153,17.367-18.857
             C175.436,74.336,165.093,64.023,151.962,65.617z M157.668,103.332c-12.348,2.168-23.754-8.265-20.594-22.082
             c1.377-6.013,6.916-11.75,14.391-12.902c10.783-1.664,19.467,5.702,20.594,15.383C173.211,93.617,166.144,101.844,157.668,103.332z
             "></path>
-        <path fillRule="evenodd" clipRule="evenodd" d="M152.04,71.08c-7.259,1.107-12.107,6.115-12.72,13.439
+                        <path fillRule="evenodd" clipRule="evenodd" d="M152.04,71.08c-7.259,1.107-12.107,6.115-12.72,13.439
             c-0.713,8.511,5.741,16.083,14.399,16.32c4.105,0.112,8.591-1.807,11.04-4.08C174.504,87.719,167.467,68.727,152.04,71.08z
              M151.32,88.84c-2.219-2.168-1.069-6.311,2.159-6.96c2.675-0.538,4.997,1.13,5.04,3.84C158.576,89.201,154.01,91.469,151.32,88.84z
             "></path>
-        <path fillRule="evenodd" clipRule="evenodd" d="M146.279,107.84c-1.546,9.732-5.082,19.34-10.56,25.92
+                        <path fillRule="evenodd" clipRule="evenodd" d="M146.279,107.84c-1.546,9.732-5.082,19.34-10.56,25.92
             c5.104,7.828,3.761,22.918-2.16,28.8c1.062,3.979,1.697,8.383,2.16,12.96c6.173-9.117,10.743-18.785,15.36-28.8
             c1.511-3.278,3.5-6.749,4.56-10.319c2.495-8.403,2.528-19.191,4.08-27.84C155.604,110.108,149.955,108.91,146.279,107.84z"></path>
-        <path fillRule="evenodd" clipRule="evenodd" d="M125.819,129.119c-2.528-1.902-5.301-3.441-7.983-4.93
+                        <path fillRule="evenodd" clipRule="evenodd" d="M125.819,129.119c-2.528-1.902-5.301-3.441-7.983-4.93
             c-5.82-3.229-11.318-6.279-13.782-12.567l0.846-0.507c1.969,2.306,4.716,5.139,8.67,6.854c0.918-3.253-0.048-7.468-1.076-10.548
             c-2.168-1.702-4.607-3.213-6.968-4.676c-1.378-0.854-2.803-1.736-4.164-2.65l-0.117-0.079l-0.06-0.128
             c-1.411-3.086-2.308-6.997-2.9-12.663c-4.21-3.263-9.391-8.7-10.578-16.268l0.938-0.309c1.51,2.885,4.482,7.266,8.301,10.91
@@ -103,19 +104,19 @@ function MobileGender() {
             c0.591,1.042,1.202,2.087,1.817,3.138c2.362,4.039,4.806,8.217,6.38,12.785c0.17,0.493,0.234,0.984,0.297,1.459
             c0.075,0.572,0.146,1.112,0.396,1.596c0.806,1.561,2.508,3.147,4.154,4.682c0.602,0.561,1.2,1.119,1.755,1.674
             c5.871,5.871,12.526,12.525,15.01,22.067L95.456,200.984z"></path>
-    </g>
-    </svg>                    </div>
+                    </g>
+                </svg>
+            </div>
 
-    
-    <div className="choiceInfo">
-        <ul className="clearfix">
-            <li><i className="fa fa-exclamation-circle" aria-hidden="true"></i></li>
-            <li>Please enter your information and you will receive Lazar Angelov meal plan.</li>
-        </ul>
-    </div>
-</div>
-    
-  );
+            <div className="choiceInfo">
+                <ul className="clearfix">
+                    <li><i className="fa fa-exclamation-circle" aria-hidden="true"></i></li>
+                    <li>Please enter your information and you will receive Lazar Angelov meal plan.</li>
+                </ul>
+            </div>
+        </div>
+
+    );
 }
 
 export default MobileGender;

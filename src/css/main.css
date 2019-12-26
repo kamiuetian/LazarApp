@@ -240,7 +240,7 @@ header .btnRight{width:45px;height:45px;}
   header .headings h1{display:none;}
   header.active{width:100%;right:60%;overflow:hidden;}
 }
-.mobileNav{opacity:1;width:60%;height:200px;right:-60%;position:fixed;margin:-180px 0 0 0;-moz-transition-duration:0.3s;-o-transition-duration:0.3s;-webkit-transition-duration:0.3s;transition-duration:0.3s;background-color:#333333;margin-left:40%;color:#fff;}
+.mobileNav{width:60%;height:200px;right:-60%;position:fixed;margin:-180px 0 0 0;-moz-transition-duration:0.3s;-o-transition-duration:0.3s;-webkit-transition-duration:0.3s;transition-duration:0.3s;background-color:rgb(33,33,33,0);margin-left:40%;color:#fff;}
 .mobileNav a{padding:15px;}
 .mobileNav ul{padding:0 0 10px 30px;border-bottom:1px solid #222;height:40px;line-height:40px;list-style-type:none;}
 .mobileNav ul li{display:inline-block;margin:0 17px 0 0;}
@@ -760,3 +760,12 @@ footer span.second-span{float:right;}
 footer span.third-span{float:right;}
 footer img{position:absolute;left:50%;top:50%;-moz-transform:translate(-50%, -50%);-ms-transform:translate(-50%, -50%);-webkit-transform:translate(-50%, -50%);transform:translate(-50%, -50%);}
 @media screen and (max-width:768px){.desktop-only{display:none;} .third-span {float: none!important;}}
+.bg-dark {
+  background-color: rgb(255, 255, 255, 0) !important;
+}
+
+.navbar-dark{
+  background-color: rgb(255,255,255,0) !important;
+}
+
+
