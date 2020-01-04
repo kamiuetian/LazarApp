@@ -768,4 +768,29 @@ footer img{position:absolute;left:50%;top:50%;-moz-transform:translate(-50%, -50
   background-color: rgb(255,255,255,0) !important;
 }
 
+.btn-red{
+  background-color: red;
+  border-radius: 0px;
+  text-transform: uppercase;
+  color: white;
+}
+.btn-red:hover{
+  background-color: #c30000;
+  color: white;
+}
 
+.btn-secondary{
+  border-radius: 0;
+}
+
+.font-color-primary{
+  color: #999;
+}
+
+.text-red{
+  color: red;
+}
+
+.help-text{
+  font-size: 14px;
+}

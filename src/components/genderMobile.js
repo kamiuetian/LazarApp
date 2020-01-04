@@ -3,7 +3,6 @@ import React from 'react';
 
 function MobileGender() {
     return (
-
         <div className="genderChoiceMobile">
             <div className="male genderChoiceElem" data-gender="male" style={{height: 160}}>
                 <div>Male</div>
@@ -46,7 +45,6 @@ function MobileGender() {
                     </g>
                 </svg>
             </div>
-
             <div className="female genderChoiceElem" data-gender="female" style={{height: 160}}>
                 <div>Female</div>
                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="176.5px" height="259.5px" viewBox="0 0 176.5 259.5" enableBackground="new 0 0 176.5 259.5" xmlSpace="preserve">
@@ -107,7 +105,6 @@ function MobileGender() {
                     </g>
                 </svg>
             </div>
-
             <div className="choiceInfo">
                 <ul className="clearfix">
                     <li><i className="fa fa-exclamation-circle" aria-hidden="true"></i></li>
@@ -115,7 +112,6 @@ function MobileGender() {
                 </ul>
             </div>
         </div>
-
     );
 }
 

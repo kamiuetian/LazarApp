@@ -1,14 +1,17 @@
 import React from 'react';
+import RightsideFoodChartd from "./RightSideFoodChart";
+import MobileGender from "./genderMobile";
 
 
 function Gender() {
     return (
+        <React.Fragment>
         <section className="gender">
             <div className="container">
                 <h2>Please specify your gender</h2>
                 <div className="genderChoice">
                     <div className="row">
-                        <div className="col-lg-3 col-md-3">
+                        <div className="col-lg-3 col-md-3 text-left">
                             <div className="choiceInfo">
                                 <ul className="clearfix">
                                     <li><i className="fa fa-exclamation-circle" aria-hidden="true"></i></li>
@@ -128,49 +131,21 @@ function Gender() {
                                     <span>Female</span>
                                 </div>
                             </div>
-                        </div>
-
-                        <div className="col-lg-3 col-md-3 progressHolder"><div className="steps clearfix">
-                            <div>
-                                <div><span>Meat</span></div>
-                                <div> </div>
-                            </div>
-                            <div>
-                                <div><span>Veggies</span></div>
-                                <div> </div>
-                            </div>
-                            <div>
-                                <div><span>Fruits</span></div>
-                                <div> </div>
-                            </div>
-                            <div>
-                                <div><span>Products</span></div>
-                                <div> </div>
-                            </div>
-                            <div>
-                                <div><span>Everyday</span></div>
-                                <div> </div>
-                            </div>
-                            <div>
-                                <div><span>Bad habits</span></div>
-                                <div> </div>
-                            </div>
-                            <div>
-                                <div><span>Number of meals per day</span></div>
-                                <div> </div>
-                            </div>
-                            <div>
-                                <div><span>Measurements</span></div>
-                                <div></div>
+                            <div className="video mt-2">
+                                <iframe style={{width: "100%", height : 295}}
+                                    src="https://www.youtube.com/embed/su3k7Vk81oM?autoplay=1&amp;rel=0&amp;amp;controls=0&amp;amp;showinfo=0"
+                                    frameBorder="0" allowFullScreen="1">
+                                </iframe>
                             </div>
                         </div>
-                        </div>
+                        <RightsideFoodChartd/>
                     </div>
                 </div>
 
             </div>
         </section>
-
+        <MobileGender />
+        </React.Fragment>
     );
 }
 
